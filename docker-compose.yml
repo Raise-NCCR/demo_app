@@ -46,4 +46,4 @@ volumes:
   mysql:
 
 networks:
-  backend
+  backend:
