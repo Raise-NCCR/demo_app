@@ -19,7 +19,7 @@ services:
       - MYSQL_PASSWORD=${MYSQL_PASSWORD}
       - MYSQL_DATABASE=${MYSQL_DATABASE}
     volumes:
-      -./:/app
+      - ./:/app
     networks:
       - backend
 
